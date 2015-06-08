@@ -26,3 +26,17 @@ table.p20px > tbody >  tr > td {
 .table-block-hover  > tbody > tr > td:hover {
 	background-color: #e8e8e8;
 }
+
+.clear{
+	clear:both;
+}
+
+
+a{
+	cursor: pointer;
+}
+
+a.default{
+	text-decoration: none;
+}
+

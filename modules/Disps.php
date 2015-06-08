@@ -1535,8 +1535,8 @@ popupconfirm(null);
             <div class="view-content">
              <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-6"  <?php if($inp["page"]=="index"){ ?>style="background:rgba(0,0,0,0.4);" <?php } ?> >
               <div id="main" class="clearfix"  >
-               <div class="title" id="page-title" style="font-size:35px;font-weight:700;color:white;" >
-                Submit Homework Questions here.
+               <div class="title" id="page-title" style="font-size:32px;font-weight:700;color:white;" >
+                Submit Homework Assignment here.
                </div>
                <div style="color:white;" >
                 Everything you provide us will be confidential. so chill.
@@ -1576,7 +1576,7 @@ popupconfirm(null);
                        </div>
                        <?php clear(); ?>
                        <div class="form-actions form-wrapper" id="edit-actions">
-                        <img src="photo/icons/attach1.png" style="float:left;cursor:pointer;" onclick="uploadfile(this);" />
+                        <img src="photo/icons/attach1.png" style="float:left;cursor:pointer;" onclick="uploadfile(this);" title="Attach File" />
                         <div id="uploadfilenamemain" style="float:left;margin-left:20px;margin-top:5px;" ></div>
                         <input id="edit-submit" value="Get Answer" class="form-submit" type="submit" style="float:right;margin-top:0px;"  />
                         <div style="clear:both;"></div>

@@ -89,7 +89,6 @@ function make_table(){
 //dt("conv");
 //dt("expert");
 make_table();
-//drop_all();
 
 closedb();
 

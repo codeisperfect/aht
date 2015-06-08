@@ -48,7 +48,7 @@ Disps::page_top2();
             <div class="view-content" style="margin-top:-100px;" >
              <div class="views-row views-row-1 views-row-odd views-row-first col-sm-3 col-md-3">
               <div style="width:200px;height:200px;overflow:hidden;border-radius:100px;" >
-                <img src='<?php echo $myf["profilepic"]; ?>' height="200" width="200" />
+                <a href="profile.php" ><img src='<?php echo $myf["profilepic"]; ?>' height="200" width="200" /></a>
               </div>
               <table>
               <?php
@@ -78,7 +78,7 @@ Disps::page_top2();
           $assign_table->trlist[]=$row;
           for($i=0;$i<count($alla);$i++){
 //              $rowlist=array($alla[$i]["id"],$_ginfo["subjects"][$alla[$i]["subject"]],$alla[$i]["paid"].' $',$_ginfo["assign_status"][Funs::assign_status($alla[$id])], Fun::timetostr($alla[$id]["deadline"])  );
-              $rowlist=array($alla[$i]["id"],$_ginfo["subjects"][$alla[$i]["subject"]],$alla[$i]["paid"].' $',$_ginfo["assign_status"][Funs::assign_status($alla[$i])], Fun::timetostr($alla[$i]["deadline"]), Fun::time_remaining($alla[$i]["deadline"]-time()));
+              $rowlist=array($alla[$i]["id"],$_ginfo["subjects"][$alla[$i]["subject"]],$alla[$i]["paid"].' $',$_ginfo["assign_status"][Funs::assign_status($alla[$i])], Fun::timetostr($alla[$i]["deadline"]), Fun::time_remaining($alla[$i]["deadline"]-time()),"", "<a href='assignment.php?aid=".$alla[$i]["id"]."' >View</a>");
               $row=new Row();
               foreach($rowlist as $j){
                 $row->tdlist[]=new Td(array('html'=>new Text($j))  );

@@ -64,6 +64,10 @@ Disps::page_top2();
        <div class="col-md-12">
         <div class="region region-top-content">
          <div id="block-views-benefits-block" class="block block-views clearfix" >
+         <?php
+               Disps::disp_myassign_top_menu();
+            ?>
+
           <h2 class="title" style="text-align:left;" >
            Edit Your Profile ( <?php echo User::accountNames(User::loginType()); ?> )
           </h2>

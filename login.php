@@ -195,7 +195,7 @@ Disps::page_top2();
               <div id="main" class="clearfix">
                <div id="logindiv" style="<?php if($uargs["type"]!="login") echo "display:none;"; ?>" >
                 <div class="title" id="page-title" style="font-size:35px;font-weight:700;" >
-                 Login to AHT
+                 Sign In to AHT
                 </div>
                 <div>
                  We will provide you better service if you login.
@@ -216,7 +216,7 @@ Disps::page_top2();
                         </div>
                         <div class="form-item webform-component webform-component-textfield" id="webform-component-name" align="left" >
                           <a href="forget.php" >Forget password</a><br>
-                          Don't have an account ? <a onclick="hideshowdown('logindiv','signupdiv');" >Sign Up</a><br>
+                          Don't have an account? <a onclick="hideshowdown('logindiv','signupdiv');" >Click here to Sign Up </a><br>
                         </div>
                         <div class="form-actions form-wrapper" id="edit-actions">
                          <div id="uploadfilenamemain" style="float:left;margin-left:20px;margin-top:5px;" ></div>

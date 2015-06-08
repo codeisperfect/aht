@@ -64,7 +64,7 @@ Disps::page_top2();
             <div class="view-content" style="margin-top:-100px;" >
              <div class="views-row views-row-1 views-row-odd views-row-first col-sm-3 col-md-3">
               <div style="width:200px;height:200px;overflow:hidden;border-radius:100px;" >
-                <img src='<?php echo $myf["profilepic"]; ?>' height="200" width="200" />
+                <a href="profile.php" ><img src='<?php echo $myf["profilepic"]; ?>' height="200" width="200" /></a>
               </div>
               <table>
               <?php

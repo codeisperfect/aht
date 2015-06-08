@@ -19,7 +19,7 @@ if(Fun::isSetP("csubject","question","quote","deadline")  ){
   if(!User::islogin()){
    $_SESSION["iid"]=$iid;
    $page_type="login";
-   Fun::redirect(HOST."login.php");
+   Fun::redirect(HOST."login.php?type=signup");
   }
   else{
    Help::assignuploadaction(array("student name"=>$myf["name"],"aid"=>$iid));

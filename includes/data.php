@@ -42,19 +42,20 @@ $_ginfo["subjtree"]=array(
 	"PROGRAMING"=>array(array(88,"JAVA Programming"),array(89,"DOT NET Programming"),array(90,"Assembly Language"),array(91,"Python Programming"),array(92,"COBOL Programming"),array(93,"Visual Basic Programming"),array(94,"PHP Web Programming"),array(95,"PL-SQL Programming"),array(96,"Programming Languages")),
 	"MATLAB"=>array(array(99,"MATLAB in Mathematics"),array(100,"MATLAB in Statistics"),array(101,"MATLAB in Engineering"),array(102,"Simulation in MATLAB")),
 	"WEB DEVELOPMENT"=>array(array(105,"MySQL"),array(106,"Javascript"),array(107,"CSS"),array(108,"HTML"),array(109,"HTML-5"),array(110,"Ajax")),
-	"OPEN SOURCE"=>array(),
 	"CMS"=>array(array(132,"Joomla"),array(133,"Wordpress")),
 	"GENERAL"=>array(array(116,"English"),array(117,"History"),array(118,"Human Resource"),array(119,"Humanities"),array(120,"Law"),array(121,"Medical Science"),array(122,"Nursing"),array(123,"Physiology"),array(124,"Political Science"),array(125,"Psychology"),array(126,"Religion"),array(127,"Social Science"),array(128,"Sociology"),array(129,"Solidworks"),array(130,"Term Paper"))
 );
 
 $_ginfo["assign_status"]=array(
-	1=>"Waiting for Admin",
-	2=>"Under review",
-	3=>"Waiting for payment",
-	4=>"Expert is solving",
+	1=>"Under Review",
+	2=>"Under Review",
+	3=>"Awaiting for Payment",
+	4=>"Processing and Clarification Sought",
 	5=>"Submitted",
 	6=>"Failed"
 	);
+//, , 
+
 
 $_ginfo["notftype"]=array(
 	0=>"Notification",
