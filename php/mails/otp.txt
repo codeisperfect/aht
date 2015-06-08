@@ -1,0 +1,2 @@
+Hey <name>
+Your OTP is <otp> . either fill it or visit <link> to confirm your account.
