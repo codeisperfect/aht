@@ -1,0 +1,28 @@
+.p5{padding:5px;}
+.p10{padding:10px;}
+.p20{padding:20px;}
+.m5{margin:5px;}
+.m10{margin:10px;}
+.m20{margin:20px;}
+
+
+table.p5px > tbody >  tr > td {
+  padding:5px;
+}
+
+table.p10px > tbody >  tr > td {
+  padding:10px;
+}
+
+table.p20px > tbody >  tr > td {
+  padding:20px;
+}
+
+
+.table-block-hover  > tbody > tr > td{
+	cursor:pointer;
+}
+
+.table-block-hover  > tbody > tr > td:hover {
+	background-color: #e8e8e8;
+}

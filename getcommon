@@ -1,0 +1,3 @@
+cp ../wwm/php/func.php php/
+#cp ../wwm/php/display.php php/
+#cp ../wwm/modules/Fun.php modules/

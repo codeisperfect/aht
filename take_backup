@@ -1,0 +1,6 @@
+fn=backup
+mkdir -p $fn;
+len=$(ls --color=never $fn|wc -l);
+mkdir $fn/backup$len;
+cp -r css/ modules/ includes/ js/ php/ *.php $fn/backup$len;
+
