@@ -664,10 +664,11 @@ reload_chat();
 	public static function page_header($myf=null){
 		global $_ginfo;
 ?>
-  <header id="header" role="banner" class="clearfix">
+	<div style="margin-top:-40px;" ></div>
+  <header id="header" role="banner" class="clearfix" style="margin-bottom:-15px;" >
    <div class="container">
     <div id="header-inside" class="clearfix">
-     <div class="row">
+     <div class="row" style="" >
       <div class="col-md-4">
        <div id="header-inside-left" class="clearfix">
         <div id="logo">
@@ -763,6 +764,7 @@ reload_chat();
 	}
 	public static function page_footer(){
 ?>
+
   <div id="footer-top" class="clearfix">
    <div class="container">
     <div id="footer-top-inside" class="clearfix">
@@ -871,7 +873,7 @@ reload_chat();
      <div class="col-sm-3">
       <div class="footer-area">
        <div class="region region-footer-third">
-        <div id="block-views-popular-tags-block" class="block block-views clearfix">
+        <div id="block-views-popular-tags-block" class="block block-views clearfix" style="display:none;" >
          <h2 class="title">
           Popular Tags
          </h2>
@@ -881,7 +883,7 @@ reload_chat();
             <div class="views-row views-row-1 views-row-odd views-row-first">
              <div class="views-field views-field-name">
               <span class="field-content">
-               <a href="/startupgrowth/default/taxonomy/term/13">
+               <a href="">
                 #maths
                </a>
               </span>
@@ -940,37 +942,37 @@ reload_chat();
          <div class="content">
           <ul class="menu">
            <li class="first leaf">
-            <a href="/startupgrowth/default/node/2" title="">
+            <a href="" title="">
              About
             </a>
            </li>
            <li class="collapsed">
-            <a href="/startupgrowth/default/blog" title="">
+            <a href="" title="">
              Blog
             </a>
            </li>
            <li class="leaf">
-            <a href="/startupgrowth/default/contact-us" title="">
+            <a href="content.php?cname=contactus" title="">
              Contact
             </a>
            </li>
            <li class="leaf">
-            <a href="/startupgrowth/default/node/26" title="">
+            <a href="" title="">
              Team
             </a>
            </li>
            <li class="leaf">
-            <a href="/startupgrowth/default/services" title="">
+            <a href="" title="">
              Careers
             </a>
            </li>
            <li class="leaf">
-            <a href="/startupgrowth/default/showcase" title="">
+            <a href="" title="">
              Tutor Registration
             </a>
            </li>
            <li class="last leaf">
-            <a href="/startupgrowth/default/node/1" title="">
+            <a href="" title="">
              T &C
             </a>
            </li>
@@ -1007,7 +1009,7 @@ reload_chat();
           <div class="content">
            <ul class="menu">
             <li class="first leaf">
-             <a href="/startupgrowth/default/services" title="">
+             <a href="" title="">
               Services
              </a>
             </li>
@@ -1031,6 +1033,9 @@ reload_chat();
     </div>
    </div>
   </div>
+
+
+
 <?php
 popupalert(null);
 popupconfirm(null);
@@ -1523,7 +1528,7 @@ popupconfirm(null);
  public static function assign_submitting_form($inp=array()){
  	$inp=Fun::mergeifunset($inp,array("page"=>"index"));
 ?>
-   <div id="top-content" class="clearfix" <?php if($inp["page"]=="index"){ ?>style="z-index:100;position:absolute;top:100px;left:10px;padding:0px;" <?php } ?> >
+   <div id="top-content" class="clearfix" <?php if($inp["page"]=="index"){ ?>style="z-index:100;position:absolute;top:45px;left:10px;padding:0px;" <?php } ?> >
     <div class="container" style="" > 
      <div id="top-content-inside" class="clearfix">
       <div class="row">
